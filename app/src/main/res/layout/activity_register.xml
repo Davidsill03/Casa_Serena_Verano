@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondosplash"
+    tools:context=".register"
+    android:padding="25dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logoINICIO"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:contentDescription="TODO"
+                android:src="@drawable/logorosa" />
+
+            <TextView
+                android:id="@+id/Registrate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/Head"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="14dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/nombreTextFaild"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Nombre"
+                    app:errorEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edit3TextOutlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+                //Apellido Paterno
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/apellidoPTextFaild"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Ap_pat"
+                    app:errorEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edit4TextOutlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+                //Apellido Materno
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/apellidoMTextFaild"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Ap_mat"
+                    app:errorEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edit5TextOutlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="14dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/correo2TextFaild"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/CorreoE"
+                    app:errorEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edit6TextOutlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+                //Apellido Paterno
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/contra2TextFaild"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Contraseña"
+                    app:errorEnabled="true"
+                    app:passwordToggleEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edit7TextOutlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="54dp"
+                        android:inputType="textPassword" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+                //Apellido Materno
+
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/check"
+                style="Widget.MaterialComponents.CompoundButton.CheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:checked="false"
+                android:text="@string/AP"
+                android:textColorLink="#FF09D812"
+                app:useMaterialThemeColors="false"/>
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#00FFFFFF" />
+
+            <Button
+                android:id="@+id/bottonregis"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/colorPrimary"
+                android:hint="@string/btnReg"
+                android:onClick="Anterior"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

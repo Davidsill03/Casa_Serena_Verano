@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManualidadesActivity">
+
+    <FrameLayout
+        android:id="@+id/frame6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/config2"
+                    android:layout_width="match_parent"
+                    android:layout_height="?actionBarSize"
+                    android:background="#EEE4CDA7"
+                    android:elevation="4dp"
+                    android:orientation="vertical"
+                    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                    app:menu="@menu/configuracion"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:title="Casa Serena"
+                    app:titleMarginStart="40dp">
+
+                    <ImageButton
+                        android:id="@+id/conf2"
+                        style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:onClick="Config12"
+                        android:src="@drawable/ic_settings_black_24dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="MANUALIDADES"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="0dp">
+
+                    <ImageButton
+                        android:id="@+id/fisicas"
+                        style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:src="@drawable/ic_pintura" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="249dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Son trabajos efectuados con las manos, con o sin ayuda de herramientas. Por extensión, el resultado de dicha labor también es conocido como manualidad."
+                        android:textAlignment="center"
+                        android:textColor="#F5000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="398dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="Generalmente, se denomina así a algunas labores didácticas en las cuales se busca como objetivo un avance personal, desarrollo de la creatividad, y son una forma de esparcimiento. "
+                    android:textColor="#F5000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#CDA58756"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="¿Cuáles son sus beneficios?"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="center"
+                        android:text="Las manualidades proporcionan múltiples beneficios y de muy distinta forma. Mejoran la estimulación cognitiva, la psico-motricidad y fomenta la socialización."
+                        android:textColor="#F5000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView51"
+                        android:layout_width="match_parent"
+                        android:layout_height="229dp"
+                        android:layout_weight="1"
+                        android:contentDescription="Todo"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/manualidades" />
+
+                    <TextView
+                        android:id="@+id/textView401"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="Figura 1. Fotografía tomada después de la sesión"
+                        android:textColor="#F5000000"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="398dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="La elaboración de objetos de forma manual mejora el físico de los mayores, así como la prevención o reducción de enfermedades como la artrosis, ya que son tareas que se realizan con las manos y mejoran los movimientos de las mismas, evitando que pierdan fuerza, elasticidad y movilidad. También mantiene activas partes, como la visión, ya que precisan fijarse en detalles, por ejemplo; cortar, pegar o enhebrar distintas partes del objeto construido. "
+                    android:textColor="#F5000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView52"
+                        android:layout_width="match_parent"
+                        android:layout_height="229dp"
+                        android:layout_weight="1"
+                        android:contentDescription="Todo"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/manualidades_2" />
+
+                    <TextView
+                        android:id="@+id/textView402"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="Figura 1. Fotografía tomada después de la sesión"
+                        android:textColor="#F5000000"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="398dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="Fomentan los aspectos cognitivos, ya que son tareas en las que se requiere concentración y la atención, por lo tanto, junto con los beneficios físicos, son beneficiosas para las actividades diarias como, por ejemplo, cocinar, pudiendo mantenerse el mayor independiente."
+                    android:textColor="#F5000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView53"
+                        android:layout_width="match_parent"
+                        android:layout_height="229dp"
+                        android:layout_weight="1"
+                        android:contentDescription="Todo"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/manualidades_3" />
+
+                    <TextView
+                        android:id="@+id/textView403"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="Figura 1. Fotografía tomada después de la sesión"
+                        android:textColor="#F5000000"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="398dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="Las manualidades proporcionan también beneficios psicológicos y sociales, ya que mejoran la autoestima y el ánimo al ver que, a pesar de cumplir años, se sigue siendo útil y se es capaz de realizar trabajos manuales de forma correcta y satisfactoria. Mejora la socialización de los mayores, ya que este tipo de tareas se pueden realizar entre varias personas si son manualidades de mayor complicación y tamaño, pudiendo realizarla con familiares u otras personas de cualquier edad."
+                    android:textColor="#F5000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView54"
+                        android:layout_width="match_parent"
+                        android:layout_height="229dp"
+                        android:layout_weight="1"
+                        android:contentDescription="Todo"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/manualidades_4" />
+
+                    <TextView
+                        android:id="@+id/textView404"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="Figura 1. Fotografía tomada después de la sesión"
+                        android:textColor="#F5000000"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="229dp"
+                        android:layout_weight="1"
+                        android:contentDescription="Todo"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/manualidades_5" />
+
+                    <TextView
+                        android:id="@+id/textView40"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="Figura 1. Fotografía tomada después de la sesión"
+                        android:textColor="#F5000000"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:text="¡TE INVITAMOS A PARTICIPAR EN NUESTRA ACTIVIDAD DE MANUALIDADES!"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:fontFamily="sans-serif-black"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="#EEE4CDA7"
+                    android:fontFamily="sans-serif-black"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</RelativeLayout>

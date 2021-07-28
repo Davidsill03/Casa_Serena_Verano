@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_Nombre">Name:</string>
+    <string name="txt_Usuario">User:</string>
+    <string name="txt_Correo">Email:</string>
+    <string name="txt_Contrasena">Password:</string>
+    <string name="txt_terminos_condiciones">Terms and conditions</string>
+    <string name="img_usuario">User</string>
+    <string name="img_horario">Hours</string>
+    <string name="img_config">Settings</string>
+    <string name="btn_editar">EDIT</string>
+    <string name="btn_guardar">SAVE</string>
+    <string name="btn_cerrar">CLOSE</string>
+    <string name="txt_horario">HOURS</string>
+    <string name="btn_cs">SING OFF</string>
+    <string name="btn_eliminar">Delete</string>
+    <string name="Appellido">Last name</string>
+
+    <!--Fragment third-->
+    <string name="ft1">You can find us here</string>
+    <string name="ft2">Address: Vázquez del Mercado 210, Barrio de la Purísima, 20259 Aguascalientes, Ags.</string>
+    <string name="ft3">Hours: Monday-Friday from 7:00 a.m. to 9:00 p.m. \ n Weekends CLOSED</string>
+    <string name="ft4">Phone number: 449 213 0466</string>
+
+    <!-- Fragment second-->
+    <string name="fsF">Physical</string>
+    <string name="fsR">Recreational</string>
+    <string name="fsTC">Tai-Chi</string>
+    <string name="fsY">Yoga</string>
+    <string name="fsM">Crafts</string>
+    <string name="fsL">Reading</string>
+
+    <!-- Fragment First -->
+    <string name="FfT1">Spring</string>
+    <string name="Ff1">Flowers, mandalas and stretches 🧘</string>
+
+    <!-- Activity yoga-->
+    <string name="Titulo_yoga">YOGA</string>
+    <string name="Txt1_yoga">Yoga is a practice that connects the body, breath, and mind. This practice uses physical postures, breathing exercises, and meditation to improve overall health.</string>
+    <string name="Sb1">What are its benefits?</string>
+    <string name="Txt2_yoga">Yoga can improve your overall level of fitness, posture, and flexibility. It can also lower blood pressure and heart rate, help to relax, improve self-confidence, reduce stress, improve coordination, improve concentration, help you sleep better, aid digestion.</string>
+    <string name="Sb2_yoga">Check out our yoga activity</string>
+    <string name="yoga_I1">Picture 1. Photograph taken after the session</string>
+    <string name="yoga_I2">Picture 2. Photograph taken after the session</string>
+    <string name="yoga_I3">Picture 3. Photograph taken after the session</string>
+    <string name="yoga_I4">Picture 4. Photograph taken after the session</string>
+    <string name="yoga_I5">Picture 5. Photograph taken after the session</string>
+    <string name="yoga_fin">¡WE INVITE YOU TO PARTICIPATE IN OUR YOGA ACTIVITY!</string>
+
+    <!--Activity Thai-Chi-->
+    <string name="Titulo_TC">TAI-CHI</string>
+    <string name="Txt1_TC">It is a non-competitive system of gentle physical exercise and self-paced stretching. Each pose flows into the next without pause, ensuring that the body is in constant motion.</string>
+    <string name="Txt2_TC">Tai Chi is an ancient discipline that offers relaxation, reduces stress and anxiety, while improving the flexibility of the body and the balance of the mind.</string>
+    <string name="Sb2_TC">Types of Tai-Chi</string>
+    <string name="Txt3_TC">In the Yang mode, long and smooth movements are performed. It is highly recommended for beginners and older people.</string>
+    <string name="Txt4_TC">In the Chen mode, you go from relaxation to exercise in a single movement. It is suitable for people more trained in this discipline as it requires greater physical effort.</string>
+    <string name="TC_fin">WE INVITE YOU TO PARTICIPATE IN OUR TAI-CHI ACTIVITY!</string>
+
+    <!-- Activity register -->
+    <string name="Head">Sign up</string>
+    <string name="Nombre">Name(s)</string>
+    <string name="Ap_pat">Last name</string>
+    <string name="Ap_mat">Mothers last name</string>
+    <string name="CorreoE">Email</string>
+    <string name="Contraseña">Password</string>
+    <string name="AP">Privacy notices</string>
+    <string name="btnReg">Sing in</string>
+
+    <!--Activity recreativas-->
+    <string name="R_Titulo">RECREATIONAL ACTIVITIES</string>
+    <string name="R_txt1">Recreational activities are all activities carried out by the subject in free time freely chosen that provide pleasure and personality development.</string>
+    <string name="R_txt2">The action carried out by a living being or an entity can be called an activity. Recreational, meanwhile, is an adjective that refers to what offers recreation (entertainment, fun or distraction).</string>
+    <string name="R_txt3">Outdoor recreational activities often involve physical activity and therefore produce health benefits for people, which is why outdoor recreation is promoted as a means of improving health and improving the performance of basic movement patterns.</string>
+    <string name="R_sub1">Check out our recreational activities.</string>
+    <string name="R_I1">Picture 1. Photograph taken after the session</string>
+    <string name="R_I2">Picture 2. Photograph taken after the session</string>
+    <string name="R_I3">Picture 3. Photograph taken after the session</string>
+    <string name="R_I4">Picture 4. Photograph taken after the session</string>
+    <string name="R_I5">Picture 5. Photograph taken after the session</string>
+    <string name="R_fin">WE INVITE YOU TO PARTICIPATE IN OUR RECREATIONAL ACTIVITIES!</string>
+
+    <!-- Activity olvidado -->
+    <string name="Titulo_act">Enter your email</string>
+    <string name="RecuperarContraseña">Recover password</string>
+
+    <!-- Login -->
+    <string name="Log_titulo">Welcome</string>
+    <string name="OlvidoC">Forgot your password?</string>
+    <string name="btn_IniciarSesion">Log in</string>
+    <string name="btn_invitado">Invited</string>
+
+    <!-- Activity lectura -->
+    <string name="L_Titulo">READING</string>
+    <string name="L_txt1">Reading is a process in which an individual knows certain information through visual or written language. The reader faces certain words, numbers or symbols, translates them into information within his mind, decodes them and learns.</string>
+    <string name="L_txt2">Reading is a cognitive process that has many benefits for people´s mental, emotional and social health. Those who read more regularly acquire what is known as a "reading habit.</string>
+    <string name="L_txt3">Among the main advantages of reading is to allow to acquire knowledge and increase communication capacity, help develop the ability to analyze and solve problems, it is an entertainment option, allow to develop empathy and interpersonal relationships, allow to release emotions, stimulate concentration, among others.</string>
+    <string name="L_I1">Picture 1. Photograph taken after the session</string>
+    <string name="L_fin">WE INVITE YOU TO PARTICIPATE IN OUR READING ACTIVITY!</string>
+
+    <!-- Activity fisicas -->
+    <string name="F_Titulo">PHYSICAL ACTIVITIES</string>
+    <string name="F_txt1">Physical activity consists of recreational or leisure activities, travel, chores, games, sports, or scheduled exercises in the context of daily, family, and community activities</string>
+    <string name="F_txt2">The practice of moderate physical activity in daily life significantly improves health in all its aspects. Helps prevent diseases and improve physical, mental and emotional capacities.</string>
+    <string name="F_txt3">Older people who do some physical activity are much more coordinated, which helps them reduce the risk of accidents such as trips or falls in the elderly. Another great benefit of being active is that your mood is greatly improved, as well as reducing stress and insomnia.</string>
+    <string name="F_sub1">Check our physical activities</string>
+    <string name="F_I1">Picture 1. Photograph taken after the session</string>
+    <string name="F_I2">Picture 2. Photograph taken after the session</string>
+    <string name="F_I3">Picture 3. Photograph taken after the session</string>
+    <string name="F_fin">WE INVITE YOU TO PARTICIPATE IN OUR PHYSICAL ACTIVITIES!</string>
+
+    <!---menu overflow -->
+    <string name="perfil">profile</string>
+    <string name="contacto">contact</string>
+    <string name="ajustes">settings</string>
+
+</resources>

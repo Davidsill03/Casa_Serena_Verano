@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/firstFragment"
+    android:icon="@drawable/ic_home_black_24dp"
+    android:title="Inicio"
+    />
+    <item
+        android:id="@+id/secondFragment"
+        android:icon="@drawable/ic_pool_black_24dp"
+        android:title="Actividades"
+        />
+    <item
+        android:id="@+id/thirdFragment"
+        android:icon="@drawable/ic_sticky_note_2_black_24dp"
+        android:title="Informacion"
+        />
+    <item
+        android:id="@+id/fourthFragment"
+        android:icon="@drawable/ic_date_range_black_24dp"
+        android:title="Horario"
+        />
+    <item
+        android:id="@+id/fifthFragment"
+        android:icon="@drawable/ic_face_black_24dp"
+        android:title="Perfil"
+        />
+</menu>

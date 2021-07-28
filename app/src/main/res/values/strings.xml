@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_Nombre">Nombre:</string>
+    <string name="txt_Usuario">Usuario:</string>
+    <string name="txt_Correo">Correo:</string>
+    <string name="txt_Contrasena">Contraseña:</string>
+    <string name="txt_terminos_condiciones">Terminos y condiciones</string>
+    <string name="img_usuario">usuario</string>
+    <string name="img_horario">horario</string>
+    <string name="img_config">configurar</string>
+    <string name="btn_editar">EDITAR</string>
+    <string name="btn_guardar">GUARDAR</string>
+    <string name="btn_cerrar">CERRAR</string>
+    <string name="txt_horario">HORARIO</string>
+    <string name="btn_cs">CERRAR SESION</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="Appellido">Apellido</string>
+
+    <!--Fragment third-->
+    <string name="ft1">Nos encuentras aquí</string>
+    <string name="ft2">Dirección: Vázquez del Mercado 210, Barrio de la Purísima, 20259 Aguascalientes, Ags.</string>
+    <string name="ft3">Horario: Lunes-Viernes de 7:00 a 21:00 \n            Fines de semana CERRADO</string>
+    <string name="ft4">Teléfono: 449 213 0466</string>
+
+    <!-- Fragment second-->
+    <string name="fsF">Fisicas</string>
+    <string name="fsR">Recreativas</string>
+    <string name="fsTC">Tai-Chi</string>
+    <string name="fsY">Yoga</string>
+    <string name="fsM">Manualidades</string>
+    <string name="fsL">Lectura</string>
+
+    <!-- Fragment First -->
+    <string name="FfT1">Primavera</string>
+    <string name="Ff1">Flores, mándalas y estiramientos 🧘</string>
+
+    <!-- Activity yoga-->
+    <string name="Titulo_yoga">YOGA</string>
+    <string name="Txt1_yoga">El yoga es una práctica que conecta el cuerpo, la respiración y la mente. Esta práctica utiliza posturas físicas, ejercicios de respiración y meditación para mejorar la salud general.</string>
+    <string name="Sb1">¿Cuáles son sus beneficios?</string>
+    <string name="Txt2_yoga">El yoga puede mejorar el nivel general del estado físico, la postura y la flexibilidad. También puede reducir la presión arterial y la frecuencia cardíaca, ayudar a relajarse, mejorar la confianza en uno mismo, reducir el estrés, mejorar la coordinación, mejorar la concentración, ayudar a dormir mejor, ayudar a la digestión.</string>
+    <string name="Sb2_yoga">Verifica nuestra actividad de yoga</string>
+    <string name="yoga_I1">Imagen 1. Fotografía tomada después de la sesión</string>
+    <string name="yoga_I2">Imagen 2. Fotografía tomada después de la sesión</string>
+    <string name="yoga_I3">Imagen 3. Fotografía tomada después de la sesión</string>
+    <string name="yoga_I4">Imagen 4. Fotografía tomada después de la sesión</string>
+    <string name="yoga_I5">Imagen 5. Fotografía tomada después de la sesión</string>
+    <string name="yoga_fin">¡TE INVITAMOS A PARTICIPAR EN NUESTRA ACTIVIDAD DE YOGA!</string>
+
+    <!--Activity Thai-Chi-->
+    <string name="Titulo_TC">TAI-CHI</string>
+    <string name="Txt1_TC">Es un sistema no competitivo de ejercicio físico suave y estiramiento que se practica al propio ritmo. Cada postura fluye hacia la siguiente sin pausa, asegurando que el cuerpo esté en constante movimiento.</string>
+    <string name="Txt2_TC">El taichi es una disciplina ancestral que ofrece relajación, reduce el estrés y la ansiedad, a la vez que mejora la flexibilidad del cuerpo y el equilibrio de la mente.</string>
+    <string name="Sb2_TC">Tipos de Tai-Chi</string>
+    <string name="Txt3_TC">En la modalidad Yang se realizan movimientos largos y suaves. Es muy recomendado para principiantes y personas de mayor edad.</string>
+    <string name="Txt4_TC">En la modalidad Chen se pasa de la relajación al ejercicio en un solo movimiento. Es apto para personas más entrenadas en esta disciplina al exigir mayor esfuerzo físico.</string>
+    <string name="TC_fin">¡TE INVITAMOS A PARTICIPAR EN NUESTRA ACTIVIDAD DE TAI-CHI!</string>
+
+    <!-- Activity register -->
+    <string name="Head">Registrate</string>
+    <string name="Nombre">Nombre(s)</string>
+    <string name="Ap_pat">Apellido Paterno</string>
+    <string name="Ap_mat">Apellido Materno</string>
+    <string name="CorreoE">Correo Electronico</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="AP">Avisos de privacidad</string>
+    <string name="btnReg">Registrarse</string>
+
+    <!--Activity recreativas-->
+    <string name="R_Titulo">ACTIVIDADES RECREATIVAS</string>
+    <string name="R_txt1">Las actividades recreativas son todas las actividades realizadas por el sujeto en el tiempo libre elegidas libremente que le proporcionen placer y desarrollo de la personalidad.</string>
+    <string name="R_txt2">La acción que desarrolla un ser vivo o una entidad puede recibir el nombre de actividad. Recreativo, por su parte, es un adjetivo que alude a aquello que ofrece recreación (entretenimiento, diversión o distracción). </string>
+    <string name="R_txt3">Frecuentemente, las actividades recreativas al aire libre implican actividad física y por ende producen beneficios en la salud de las personas, por eso la recreación al aire libre se promueve como un medio para mejorar la salud y mejorar el desempeño de los patrones básicos de movimiento.</string>
+    <string name="R_sub1">Verifica nuestas actividades recreativas.</string>
+    <string name="R_I1">Imagen 1. Fotografía tomada después de la sesión</string>
+    <string name="R_I2">Imagen 2. Fotografía tomada después de la sesión</string>
+    <string name="R_I3">Imagen 3. Fotografía tomada después de la sesión</string>
+    <string name="R_I4">Imagen 4. Fotografía tomada después de la sesión</string>
+    <string name="R_I5">Imagen 5. Fotografía tomada después de la sesión</string>
+    <string name="R_fin">¡TE INVITAMOS A PARTICIPAR EN NUESTRAS ACTIVIDADES RECREATIVAS!</string>
+
+    <!-- Activity olvidado -->
+    <string name="Titulo_act">Introduce tu correo</string>
+    <string name="RecuperarContraseña">Recuperar contraseña</string>
+
+    <!-- Login -->
+    <string name="Log_titulo">Bienvenido</string>
+    <string name="OlvidoC">¿Olvido su contraseña?</string>
+    <string name="btn_IniciarSesion">Iniciar Sesion</string>
+    <string name="btn_invitado">Invitado</string>
+
+    <!-- Activity lectura -->
+    <string name="L_Titulo">LECTURA</string>
+    <string name="L_txt1">La lectura es un proceso en el que un individuo conoce cierta información mediante el lenguaje visual o escrito. El lector se enfrenta a ciertas palabras, números o símbolos, los traduce en información dentro de su mente, los decodifica y aprende.</string>
+    <string name="L_txt2">La lectura es un proceso cognitivo que tiene muchos beneficios para la salud mental, emocional y social de las personas. Aquellas que leen con mayor regularidad adquieren lo que se conoce como “hábito de lectura”.</string>
+    <string name="L_txt3">Entre las principales ventajas de la lectura está permitir en adquirir conocimientos e incrementar la capacidad comunicativa, ayudar a desarrollar la capacidad de análisis y resolución de problemas, es una opción de entretenimiento, permitir desarrollar la empatía y las relaciones interpersonales, permitir en liberar emociones, estimular la concentración, entre otras.</string>
+    <string name="L_I1">Imagen 1. Fotografía tomada después de la sesión</string>
+    <string name="L_fin">¡TE INVITAMOS A PARTICIPAR EN NUESTRA ACTIVIDAD DE LECTURA!</string>
+
+    <!-- Activity fisicas -->
+    <string name="F_Titulo">ACTIVIDADES FÍSICAS</string>
+    <string name="F_txt1">La actividad física consiste en actividades recreativas o de ocio, desplazamientos, tareas domésticas, juegos, deportes o ejercicios programados en el contexto de las actividades diarias, familiares y comunitarias.</string>
+    <string name="F_txt2">La práctica de actividad física moderada en la vida diaria mejora de manera significativa la salud en todos sus aspectos. Ayuda a prevenir enfermedades y mejor capacidades físicas, psíquicas y emocionales.</string>
+    <string name="F_txt3">Las personas mayores que realizan alguna actividad física son mucho más coordinados, lo que los ayuda a reducir el riesgo de accidentes como tropezones o caídas en la tercera edad. Otra gran ventaja de mantenerse activos es que su estado anímico mejora enormemente, además de que reduce el estrés y el insomnio.</string>
+    <string name="F_sub1">Verifica nuestras actividades físicas</string>
+    <string name="F_I1">Imagen 1. Fotografía tomada después de la sesión</string>
+    <string name="F_I2">Imagen 2. Fotografía tomada después de la sesión</string>
+    <string name="F_I3">Imagen 3. Fotografía tomada después de la sesión</string>
+    <string name="F_fin">¡TE INVITAMOS A PARTICIPAR EN NUESTRAS ACTIVIDADES FÍSICAS!</string>
+
+    <!---menu overflow -->
+    <string name="perfil">perfil</string>
+    <string name="contacto">contacto</string>
+    <string name="ajustes">ajustes</string>
+</resources>
