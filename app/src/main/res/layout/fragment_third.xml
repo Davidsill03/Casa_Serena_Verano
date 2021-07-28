@@ -110,10 +110,19 @@
                         android:layout_margin="8dp"
                         android:orientation="vertical">
 
-                        <com.google.android.gms.maps.MapView
-                            android:id="@+id/mapView2"
+                        <Button
+                            android:id="@+id/btnFb"
                             android:layout_width="match_parent"
-                            android:layout_height="254dp" />
+                            android:layout_height="wrap_content"
+                            android:text="@string/facebook"
+                            mapbox:backgroundTint="#5A62EA" />
+
+                        <Button
+                            android:id="@+id/btnLlamada"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/llamar"
+                            mapbox:backgroundTint="#4CAF50" />
                     </LinearLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>

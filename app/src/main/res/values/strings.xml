@@ -114,4 +114,6 @@
     <string name="perfil">perfil</string>
     <string name="contacto">contacto</string>
     <string name="ajustes">ajustes</string>
+    <string name="facebook">Facebook</string>
+    <string name="llamar">Llamar</string>
 </resources>
