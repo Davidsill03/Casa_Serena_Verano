@@ -122,11 +122,12 @@
                     android:layout_marginTop="10dp">
 
                     <ImageView
+                        android:id="@+id/image1fisicas"
                         android:layout_width="match_parent"
                         android:layout_height="229dp"
                         android:contentDescription="Todo"
-                        android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/actividad_fisica" />
+                        android:scaleType="centerCrop"/>
+                        //app:srcCompat="@drawable/actividad_fisica" />
 
                 </LinearLayout>
 
