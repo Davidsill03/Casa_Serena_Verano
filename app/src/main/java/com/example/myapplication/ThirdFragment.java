@@ -27,7 +27,6 @@ public class ThirdFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-    private String  phoneNumber = "4492130466";
 
     public ThirdFragment() {
         // Required empty public constructor
@@ -70,6 +69,7 @@ public class ThirdFragment extends Fragment {
     public void onClick(View v) {
 
         try{
+            String phoneNumber = "4492130466";
             startActivity(new Intent(Intent.ACTION_CALL,Uri.parse("tel:"+ phoneNumber)));
         }catch(Exception e){
             e.printStackTrace();
