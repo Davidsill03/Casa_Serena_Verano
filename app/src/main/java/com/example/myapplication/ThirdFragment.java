@@ -1,9 +1,11 @@
 package com.example.myapplication;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-
+import android.view.View.OnClickListener;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,9 +27,7 @@ public class ThirdFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-    /*private Button _btnFb;
-
-    String _url = "https://www.facebook.com/Casa-Serena-110212767031176";*/
+    private String  phoneNumber = "4492130466";
 
     public ThirdFragment() {
         // Required empty public constructor
@@ -58,15 +58,6 @@ public class ThirdFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
-
-        /*_btnFb.findViewById(R.id.btnFb);
-        _btnFb.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.d("click", "ok");
-            }
-        });*/
-
     }
 
     @Override
@@ -75,4 +66,26 @@ public class ThirdFragment extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_third, container, false);
     }
+
+    public void onClick(View v) {
+
+        /*switch (v.getId()){
+            case R.id.btnCall:
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel:" + phoneNumber));
+                startActivity(intent);
+                break;
+            case R.id.btnFb:
+                break;
+        }*/
+    }
+    public void irFacebook (View view){
+        Intent i = new Intent( Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/Casa-Serena-110212767031176"));
+        startActivity(i);
+    }
+    public void irUbi (View view){
+        Intent i = new Intent( Intent.ACTION_VIEW, Uri.parse("https://goo.gl/maps/2yJEmVLrj1ZQvZqy8"));
+        startActivity(i);
+    }
+
 }

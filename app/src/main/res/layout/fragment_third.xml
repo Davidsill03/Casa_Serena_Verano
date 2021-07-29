@@ -13,7 +13,9 @@
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_marginTop="1dp"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+    </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/config"
@@ -114,15 +116,25 @@
                             android:id="@+id/btnFb"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/facebook"
+                            android:onClick="irFacebook"
+                            android:text="Facebook"
                             mapbox:backgroundTint="#5A62EA" />
 
                         <Button
-                            android:id="@+id/btnLlamada"
+                            android:id="@+id/btnCall"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/llamar"
-                            mapbox:backgroundTint="#4CAF50" />
+                            android:text="Llamar"
+                            mapbox:backgroundTint="#4CAF50"
+                            android:onClick="onClick"/>
+
+                        <Button
+                            android:id="@+id/btnMapa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:onClick="irUbi"
+                            android:text="Ubicación"
+                            mapbox:backgroundTint="#EF7751" />
                     </LinearLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
