@@ -69,15 +69,11 @@ public class ThirdFragment extends Fragment {
 
     public void onClick(View v) {
 
-        /*switch (v.getId()){
-            case R.id.btnCall:
-                Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel:" + phoneNumber));
-                startActivity(intent);
-                break;
-            case R.id.btnFb:
-                break;
-        }*/
+        try{
+            startActivity(new Intent(Intent.ACTION_CALL,Uri.parse("tel:"+ phoneNumber)));
+        }catch(Exception e){
+            e.printStackTrace();
+        }
     }
     public void irFacebook (View view){
         Intent i = new Intent( Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/Casa-Serena-110212767031176"));
